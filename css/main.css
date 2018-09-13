@@ -19,6 +19,8 @@ body {
 
 img {
   vertical-align: middle;
+  height: 30px;
+  width: 30px;
 }
 
 .container {
@@ -44,17 +46,6 @@ img {
   clear: both;
 }
 
-.mb-0 {
-  margin-bottom: 0px;
-}
-
-.mt-0 {
-  margin-top: 0px;
-}
-
-.m-0 {
-  margin: 0px;
-}
 
 a {
   color: #373B47;
@@ -69,5 +60,27 @@ a:hover {
   text-transform: uppercase;
 }
 
+
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+.link {
+  /* line-height: 700; */
+  padding: 21px;
+  display: inline-block;
+  font-family: 'PT Mono', monospace;
+}
+
+.logo{
+  float: right;
+  
+}
+
+/* .first-bg {
+  width: "100vh";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1; 
+
+} */
