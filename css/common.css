@@ -17,7 +17,13 @@
 
 .text-uppercase {
   text-transform: uppercase;
+  padding: 15px;
 }
 
-
+.container{
+  /* Aquí intentamos hacerlo responsive*/
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 

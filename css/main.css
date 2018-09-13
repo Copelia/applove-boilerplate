@@ -72,15 +72,23 @@ a:hover {
 
 .logo{
   float: right;
-  
 }
 
-/* .first-bg {
-  width: "100vh";
+#home {
+  background-image: url('../assets/images/bg-home.jpg');
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  position: relative;
-  z-index: 1; 
+  height: 554px;
+  text-align: center;
+}
 
-} */
+#home .container{
+  padding: 70px;
+  color: white;
+  font-family: 'PT Mono', monospace;
+}
+
+.btn-home{
+  background-color: green;
+}
